@@ -95,7 +95,7 @@ def k_means(data_list, centroids_num, convergence, iters_num):
 
 
 def main():
-    data = load_data('julei1.txt')
+    data = load_data('test.txt')
     centroids_num = 2
     loss_convergence = 1e-6
     iterations_num = 100
